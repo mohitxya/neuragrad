@@ -1,4 +1,5 @@
-from neura import engine
+from neura.engine import Value
+import random
 
 class Neuron: # nin is how many inputs it will take
     def __init__(self,nin):
